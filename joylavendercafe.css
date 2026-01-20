@@ -1,0 +1,163 @@
+/* applying playfair display font on all site */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6fa;
+    color: #333;
+    line-height: 1.6;
+}
+/* creates a brown header with white text centered,  padding adds space inside the header */
+header {
+    background-color: #6f4e37;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* makes a light purple navigation bar which also space the content out */
+nav {
+    background-color: #d6c4d6;
+    padding: 10px;
+    text-align: center;
+}
+/* the links on the nav bar will have a bolded format and no underlines using text-decoration */
+nav a {
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* makes sure my html element in section is formatted with spacing and it is centered */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+/* any html element within menu-item is formatted with spacing from top and bottom */
+.menu-item {
+    margin: 15px 0;
+}
+/* makes the footer have a brown background color, text is white and centered */
+footer {
+    background-color: #6f4e37;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+/* images are centered and formatted */
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+/* images are shown */
+.image-row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+/* adding style to time html */
+.hours {
+    text-align: center;
+    margin: 30px 0;
+}
+/* this removes bullet points and add space inside the ul element */
+.hours ul {
+    list-style: none;
+    padding: 0;
+}
+/* the font size in the li or the listed element is increased */
+.hours li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+/* used to import font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* style for header */
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+}
+/* style for navigation */
+nav a {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    padding: 10px;
+    text-decoration: none;
+    color: #6A4C93;
+}
+/* used for the main banner text */
+.hero {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    text-align: center;
+    color: #6A4C93;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(106, 76, 147, 0.8); /* Light purple glow effect */
+}
+/* adding more into the style footer */
+footer {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1em;
+    margin-top: 40px;
+    color: #ffffff;
+}
+/* menu style */
+.menu-card {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    vertical-align: top;
+}
+
+/* making the images have rounded corners and have a shadow underneath */
+.menu-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+/* adds space above each paragraph */
+.menu-card p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+/* the map will appear after the text of my contacts */
+.map-container {
+    margin-top: 20px;
+}
+/* makes the iframe of the map width, height, border changes */
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 8px;
+}
+/* this will let the ordered list to be display in bullet points and on the left side */
+ol {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+  }
+/* table format */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #d6c4d6;
+    font-weight: bold;
+  }
